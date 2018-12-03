@@ -12,10 +12,11 @@ if(isset($_POST['btn-upload']))
  $year=$_POST['year'];
  $subject=strtolower($_POST['subject']);
  $date=$_POST['date'];
- $firstname=getuserfields('Firstname');
- $lastname=getuserfields('Lastname');
+ $first_name=getuserfields('Firstname');
+ $last_name=getuserfields('Lastname');
  $email=getuserfields('Email');
  $regid=getuserfields('Regid');
+ $username=getuserfields('username');
  generate:
  $assignmentid=rand(1,1000000);
  $query="SELECT Assignmentid from Assignment where Assignmentid='$assignmentid'";
