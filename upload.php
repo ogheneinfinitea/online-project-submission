@@ -12,7 +12,7 @@ if(isset($_POST['btn-upload']))
  $year=$_POST['year'];
  $subject=strtolower($_POST['subject']);
  $date=$_POST['date'];
- $firs_tname=getuserfields('Firstname');
+ $first_name=getuserfields('Firstname');
  $last_name=getuserfields('Lastname');
  $email=getuserfields('Email');
  $regid=getuserfields('Regid');
